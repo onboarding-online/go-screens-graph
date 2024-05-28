@@ -1,0 +1,13 @@
+package models
+// TwoColumnSingleSelectionListItemType : Combination of fields for two column single selection list item
+type TwoColumnSingleSelectionListItemType string
+
+// List of TwoColumnSingleSelectionListItemType
+const (
+	TWOCOLUMNSINGLESELECTIONLISTITEMTYPE_TITTLE TwoColumnSingleSelectionListItemType = "Tittle"
+	TWOCOLUMNSINGLESELECTIONLISTITEMTYPE_TITLE_SUBTITLE TwoColumnSingleSelectionListItemType = "TitleSubtitle"
+	TWOCOLUMNSINGLESELECTIONLISTITEMTYPE_SMALL_IMAGE_TITLE TwoColumnSingleSelectionListItemType = "SmallImageTitle"
+	TWOCOLUMNSINGLESELECTIONLISTITEMTYPE_MEDIUM_IMAGE_TITLE TwoColumnSingleSelectionListItemType = "MediumImageTitle"
+	TWOCOLUMNSINGLESELECTIONLISTITEMTYPE_FULL_IMAGE TwoColumnSingleSelectionListItemType = "FullImage"
+	TWOCOLUMNSINGLESELECTIONLISTITEMTYPE_BIG_IMAGE_TITLE TwoColumnSingleSelectionListItemType = "BigImageTitle"
+)

@@ -1,0 +1,17 @@
+package models
+// ButtonMovingAnimation : Button moving animation
+type ButtonMovingAnimation string
+
+// List of ButtonMovingAnimation
+const (
+	BUTTONMOVINGANIMATION_BUTTON_MOVING_ANIMATION1 ButtonMovingAnimation = "ButtonMovingAnimation1"
+	BUTTONMOVINGANIMATION_BUTTON_MOVING_ANIMATION2 ButtonMovingAnimation = "ButtonMovingAnimation2"
+	BUTTONMOVINGANIMATION_BUTTON_MOVING_ANIMATION3 ButtonMovingAnimation = "ButtonMovingAnimation3"
+	BUTTONMOVINGANIMATION_BUTTON_MOVING_ANIMATION4 ButtonMovingAnimation = "ButtonMovingAnimation4"
+	BUTTONMOVINGANIMATION_BUTTON_MOVING_ANIMATION5 ButtonMovingAnimation = "ButtonMovingAnimation5"
+	BUTTONMOVINGANIMATION_BUTTON_MOVING_ANIMATION6 ButtonMovingAnimation = "ButtonMovingAnimation6"
+	BUTTONMOVINGANIMATION_BUTTON_MOVING_ANIMATION7 ButtonMovingAnimation = "ButtonMovingAnimation7"
+	BUTTONMOVINGANIMATION_BUTTON_MOVING_ANIMATION8 ButtonMovingAnimation = "ButtonMovingAnimation8"
+	BUTTONMOVINGANIMATION_BUTTON_MOVING_ANIMATION9 ButtonMovingAnimation = "ButtonMovingAnimation9"
+	BUTTONMOVINGANIMATION_BUTTON_MOVING_ANIMATION10 ButtonMovingAnimation = "ButtonMovingAnimation10"
+)

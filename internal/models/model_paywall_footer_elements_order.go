@@ -1,0 +1,14 @@
+package models
+// PaywallFooterElementsOrder : Paywall footer elements order
+type PaywallFooterElementsOrder string
+
+// List of PaywallFooterElementsOrder
+const (
+	PAYWALLFOOTERELEMENTSORDER_PURCHASE_FIRST PaywallFooterElementsOrder = "PurchaseFirst"
+	PAYWALLFOOTERELEMENTSORDER_AUTO_RENEW_LABEL_FIRST PaywallFooterElementsOrder = "AutoRenewLabelFirst"
+	PAYWALLFOOTERELEMENTSORDER_PAYWALL_FOOTER_ORDER1 PaywallFooterElementsOrder = "PaywallFooterOrder1"
+	PAYWALLFOOTERELEMENTSORDER_PAYWALL_FOOTER_ORDER2 PaywallFooterElementsOrder = "PaywallFooterOrder2"
+	PAYWALLFOOTERELEMENTSORDER_PAYWALL_FOOTER_ORDER3 PaywallFooterElementsOrder = "PaywallFooterOrder3"
+	PAYWALLFOOTERELEMENTSORDER_PAYWALL_FOOTER_ORDER4 PaywallFooterElementsOrder = "PaywallFooterOrder4"
+	PAYWALLFOOTERELEMENTSORDER_PAYWALL_FOOTER_ORDER5 PaywallFooterElementsOrder = "PaywallFooterOrder5"
+)

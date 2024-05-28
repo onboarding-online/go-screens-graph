@@ -1,0 +1,19 @@
+package models
+// SubscriptionListItemType : Combination of fields for subscription list item
+type SubscriptionListItemType string
+
+// List of SubscriptionListItemType
+const (
+	SUBSCRIPTIONLISTITEMTYPE_CHECKBOX_LABELS SubscriptionListItemType = "CheckboxLabels"
+	SUBSCRIPTIONLISTITEMTYPE_LABELS_CHECKBOX SubscriptionListItemType = "LabelsCheckbox"
+	SUBSCRIPTIONLISTITEMTYPE_SUBSCRIPTION_LIST_ITEM_TYPE1 SubscriptionListItemType = "SubscriptionListItemType1"
+	SUBSCRIPTIONLISTITEMTYPE_SUBSCRIPTION_LIST_ITEM_TYPE2 SubscriptionListItemType = "SubscriptionListItemType2"
+	SUBSCRIPTIONLISTITEMTYPE_SUBSCRIPTION_LIST_ITEM_TYPE3 SubscriptionListItemType = "SubscriptionListItemType3"
+	SUBSCRIPTIONLISTITEMTYPE_SUBSCRIPTION_LIST_ITEM_TYPE4 SubscriptionListItemType = "SubscriptionListItemType4"
+	SUBSCRIPTIONLISTITEMTYPE_SUBSCRIPTION_LIST_ITEM_TYPE5 SubscriptionListItemType = "SubscriptionListItemType5"
+	SUBSCRIPTIONLISTITEMTYPE_SUBSCRIPTION_LIST_ITEM_TYPE6 SubscriptionListItemType = "SubscriptionListItemType6"
+	SUBSCRIPTIONLISTITEMTYPE_SUBSCRIPTION_LIST_ITEM_TYPE7 SubscriptionListItemType = "SubscriptionListItemType7"
+	SUBSCRIPTIONLISTITEMTYPE_SUBSCRIPTION_LIST_ITEM_TYPE8 SubscriptionListItemType = "SubscriptionListItemType8"
+	SUBSCRIPTIONLISTITEMTYPE_SUBSCRIPTION_LIST_ITEM_TYPE9 SubscriptionListItemType = "SubscriptionListItemType9"
+	SUBSCRIPTIONLISTITEMTYPE_SUBSCRIPTION_LIST_ITEM_TYPE10 SubscriptionListItemType = "SubscriptionListItemType10"
+)
