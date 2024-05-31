@@ -16,14 +16,14 @@ import (
 
 // MediaImage Media image content
 type MediaImage struct {
-	Image BaseImage `json:"image"`
+	Image BaseMediaImage `json:"image"`
 }
 
 // NewMediaImage instantiates a new MediaImage object
 // This constructor will assign default values to properties that have it defined,
 // and makes sure properties required by API are set, but the set of arguments
 // will change when the set of required properties is changed
-func NewMediaImage(image BaseImage) *MediaImage {
+func NewMediaImage(image BaseMediaImage) *MediaImage {
 	this := MediaImage{}
 	this.Image = image
 	return &this
@@ -38,9 +38,9 @@ func NewMediaImageWithDefaults() *MediaImage {
 }
 
 // GetImage returns the Image field value
-func (o *MediaImage) GetImage() BaseImage {
+func (o *MediaImage) GetImage() BaseMediaImage {
 	if o == nil {
-		var ret BaseImage
+		var ret BaseMediaImage
 		return ret
 	}
 
@@ -49,7 +49,7 @@ func (o *MediaImage) GetImage() BaseImage {
 
 // GetImageOk returns a tuple with the Image field value
 // and a boolean to check if the value has been set.
-func (o *MediaImage) GetImageOk() (*BaseImage, bool) {
+func (o *MediaImage) GetImageOk() (*BaseMediaImage, bool) {
 	if o == nil {
     return nil, false
 	}
@@ -57,7 +57,7 @@ func (o *MediaImage) GetImageOk() (*BaseImage, bool) {
 }
 
 // SetImage sets field value
-func (o *MediaImage) SetImage(v BaseImage) {
+func (o *MediaImage) SetImage(v BaseMediaImage) {
 	o.Image = v
 }
 

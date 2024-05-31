@@ -16,14 +16,14 @@ import (
 
 // MediaVideo Media video content
 type MediaVideo struct {
-	Video BaseVideo `json:"video"`
+	Video BaseMediaVideo `json:"video"`
 }
 
 // NewMediaVideo instantiates a new MediaVideo object
 // This constructor will assign default values to properties that have it defined,
 // and makes sure properties required by API are set, but the set of arguments
 // will change when the set of required properties is changed
-func NewMediaVideo(video BaseVideo) *MediaVideo {
+func NewMediaVideo(video BaseMediaVideo) *MediaVideo {
 	this := MediaVideo{}
 	this.Video = video
 	return &this
@@ -38,9 +38,9 @@ func NewMediaVideoWithDefaults() *MediaVideo {
 }
 
 // GetVideo returns the Video field value
-func (o *MediaVideo) GetVideo() BaseVideo {
+func (o *MediaVideo) GetVideo() BaseMediaVideo {
 	if o == nil {
-		var ret BaseVideo
+		var ret BaseMediaVideo
 		return ret
 	}
 
@@ -49,7 +49,7 @@ func (o *MediaVideo) GetVideo() BaseVideo {
 
 // GetVideoOk returns a tuple with the Video field value
 // and a boolean to check if the value has been set.
-func (o *MediaVideo) GetVideoOk() (*BaseVideo, bool) {
+func (o *MediaVideo) GetVideoOk() (*BaseMediaVideo, bool) {
 	if o == nil {
     return nil, false
 	}
@@ -57,7 +57,7 @@ func (o *MediaVideo) GetVideoOk() (*BaseVideo, bool) {
 }
 
 // SetVideo sets field value
-func (o *MediaVideo) SetVideo(v BaseVideo) {
+func (o *MediaVideo) SetVideo(v BaseMediaVideo) {
 	o.Video = v
 }
 
