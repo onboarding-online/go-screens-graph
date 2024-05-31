@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.4](https://github.com/onboarding-online/go-screens-graph/compare/v1.1.3...v1.1.4) (2024-05-31)
+
+
+### Bug Fixes
+
+* support nullable box for media ([86ff5a5](https://github.com/onboarding-online/go-screens-graph/commit/86ff5a5f03db14581109d907c9e3b60440fb115c))
+
 ### [1.1.3](https://github.com/onboarding-online/go-screens-graph/compare/v1.1.2...v1.1.3) (2024-05-28)
 
 
