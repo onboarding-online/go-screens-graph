@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.5](https://github.com/onboarding-online/go-screens-graph/compare/v1.1.4...v1.1.5) (2024-06-02)
+
+
+### Bug Fixes
+
+* update general utils file ([f68f079](https://github.com/onboarding-online/go-screens-graph/commit/f68f0792f2e883261b013b60b748887fd7c42a6e))
+
 ### [1.1.4](https://github.com/onboarding-online/go-screens-graph/compare/v1.1.3...v1.1.4) (2024-05-31)
 
 
